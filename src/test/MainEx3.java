@@ -41,11 +41,11 @@ public class MainEx3 {
                     break;
                 case 3:
                     editInfoByID(studentsList);
-                    System.out.println("\n");
+                    System.out.println();
                     break;
                 case 4:
                     editInfoByName(studentsList);
-                    System.out.println("\n");
+                    System.out.println();
                     break;
                 case 5:
                     deleteInfoWithID(studentsList);
@@ -121,7 +121,7 @@ public class MainEx3 {
                 return;
             }
         }
-        System.out.println("ID doesn't exist!");
+        System.out.print("ID doesn't exist!");
     }
 
     public static void editInfoByName(ArrayList studentList) {
